@@ -43,19 +43,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		96909A571A9C42A10058D239 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7378940180761A80076A88C /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B7E7DE341A76DB7D004234B7;
+			remoteInfo = cocos2dMacFramework;
+		};
 		96DF7D171A7498E9007EFDFB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B7378940180761A80076A88C /* cocos2d-ios.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D2FEB74F194F6C9E00FC0574;
 			remoteInfo = cocos2dAndroid;
-		};
-		96DF7D191A7498E9007EFDFB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B7378940180761A80076A88C /* cocos2d-ios.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5BF3267A195F8D8800D9A51A;
-			remoteInfo = cocos2dJava;
 		};
 		96DF7D1B1A7498E9007EFDFB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -179,8 +179,8 @@
 			children = (
 				B737894B180761A90076A88C /* libcocos2d.a */,
 				96DF7D181A7498E9007EFDFB /* libcocos2dAndroid.a */,
-				96DF7D1A1A7498E9007EFDFB /* cocos2dJava.jar */,
 				96DF7D1C1A7498E9007EFDFB /* libcocos2d-mac.a */,
+				96909A581A9C42A10058D239 /* cocos2dMacFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -328,18 +328,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		96909A581A9C42A10058D239 /* cocos2dMacFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = cocos2dMacFramework.framework;
+			remoteRef = 96909A571A9C42A10058D239 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		96DF7D181A7498E9007EFDFB /* libcocos2dAndroid.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libcocos2dAndroid.a;
 			remoteRef = 96DF7D171A7498E9007EFDFB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		96DF7D1A1A7498E9007EFDFB /* cocos2dJava.jar */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.jar;
-			path = cocos2dJava.jar;
-			remoteRef = 96DF7D191A7498E9007EFDFB /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		96DF7D1C1A7498E9007EFDFB /* libcocos2d-mac.a */ = {
